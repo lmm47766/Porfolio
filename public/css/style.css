@@ -1,20 +1,34 @@
 
-.carousel-slider{
 
+body{
+	font-family: 'Sanchez', serif;
 }
 
+h2{
+	font-size: 40px !important;
+}
+
+.navHeaders{
+	font-size: 20px;
+}
 
 #logo{
 	font-size: 28px;
 }
 
-/*#test{
- height: 650px;
-}*/
-
-.projectimg{
-	width: 10%;
+#panelImage{
+ width: 450px;
 }
+
+.panelText{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+#test{
+	height: 500px !important;
+}
+
 
 span{
 	text-decoration: underline;
@@ -37,10 +51,12 @@ span{
 
 
 h3{
+  margin-bottom: 0px;
+  margin-top: 0px;
   color:white;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 40%;
+  transform: translateY(-40%);
 }
 
 .contactForm{
@@ -100,6 +116,15 @@ footer{
 
 h5{
 	margin-top: 0;
+}
+
+#next,#back{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.material-icons{
+	color: white;
 }
 
 @media screen and (max-width: 850px) {
