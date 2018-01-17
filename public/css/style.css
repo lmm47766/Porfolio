@@ -1,0 +1,150 @@
+
+.carousel-slider{
+
+}
+
+
+#logo{
+	font-size: 28px;
+}
+
+/*#test{
+ height: 650px;
+}*/
+
+.projectimg{
+	width: 10%;
+}
+
+span{
+	text-decoration: underline;
+	color:darkred;
+}
+
+#bioContext{
+	line-height: 35px;
+	font-size: 20px;
+}
+
+.parallaxImages{
+	width:100%;
+}
+
+
+.parallax-container {
+  height: 350px;
+}
+
+
+h3{
+  color:white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contactForm{
+	margin-top: 20px;
+}
+
+footer{
+	position: relative;
+	top: 50%;
+	height: 40px;
+	padding-top: 10px;
+}
+
+#github, #linkedIn{
+	width: 50px;
+}
+
+#image{
+	padding-top: 20px;
+}
+
+
+
+.pc{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card{
+	width: 290px;
+	border: 3px solid;
+}
+
+.card-content{
+	border-top: 3px solid;
+	background: lightgray;
+	padding: 5px !important;
+}
+
+#game1{
+	color: #b71c1c;
+	border-color: #b71c1c;
+}
+
+#game2{
+	color: #0d47a1;
+	border-color: #0d47a1;
+}
+#game3{
+	color: #004d40;
+	border-color: #004d40;
+}
+#game4{
+	color: #7b1fa2;
+	border-color: #7b1fa2;
+}
+
+h5{
+	margin-top: 0;
+}
+
+@media screen and (max-width: 850px) {
+	.parallax-container {
+	  height: 250px;
+	}
+	h3{
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.card{
+		width: 200px;
+		border: 3px solid;
+	}
+	.card-content{
+		height: 90px;
+	}
+	h5{
+		font-size: 20px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+	.parallax-container {
+	  height: 150px;
+	}
+	h3{
+		position: relative;
+		top: 30%;
+		transform: translateY(-30%);
+	}
+	#bioContext{
+		line-height: 25px;
+		font-size: 16px;
+	}
+}
+
+
+
+
+
+
+
+
