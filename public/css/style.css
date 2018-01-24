@@ -153,7 +153,10 @@ h5{
 
 @media screen and (max-width: 600px) {
 	.parallax-container {
-	  height: 150px;
+	  height: 190px;
+	}
+	#logo{
+	font-size: 24px;
 	}
 	h3{
 		position: relative;
@@ -164,6 +167,13 @@ h5{
 		line-height: 25px;
 		font-size: 16px;
 	}
+	#panelImage{
+	 width: 100%;
+	}
+	.panelText{
+	margin-left: 10px;
+	margin-right: 10px;
+}
 }
 
 
